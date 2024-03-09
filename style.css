@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+::placeholder{
+    text-align: center;
+}
+body{
+    background-color:gray;
+}
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-right: 30px;
+    
+}
+.balance-container{
+    height: 100px;
+    width: 400px;
+    background-color:black;
+    color:gray;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 355px;
+}
+header{
+    height: 60px;
+    background-color: rgb(110, 110, 110);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bankname{
+    color: #4c4d4c;
+    align-self:center;
+    gap:39.5%;
+}
+#form{
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    width: 300px;
+    height: 300px;
+    background-color:black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+.loginform{
+    border-radius: 10px;
+    background-color: rgb(190, 190, 190);
+    height:35px;
+    width:250px;
+    padding: 5px;
+}
+#submit{
+    border-radius: 8px;
+    background-color: rgb(190,190,190);
+    width: 80px;
+    height: 30px;
+}
+#log{
+    background-color: rgb(190,190,190);
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+}
+#deposit,#withdraw{
+    width: 150px;
+    background-color: rgb(190,190,190);
+    border-radius: 40px;
+}
+#form2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+#amount1,#amount2,#amount3{
+    width: 300px;
+    background-color: rgb(190, 190, 190);
+}
+p{
+    color: rgb(190, 190,190);
+}
+#tran{
+    background-color: rgb(190, 190, 190);
+    width:150px;
+    border-radius: 40px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bank</title>
+    </head>
+    <body id="body">
+        <header>
+            <p id="namediss">Not sighed in</p>
+            <h1 id="bankname">BANK OF GOA</h1>
+            <button id="log">logout</button>
+        </header> 
+        <main id="main">
+            <div id="loggedin">
+                <div class="balance-container">
+                    <p>balance: <span id="bal">0</span></p>
+                </div>
+                <form id="form2">
+                    <input type="number" id="amount1" name="amt" placeholder="enter amount">
+                    <div id="btns">
+                        <button type="button" id="deposit">deposit</button>
+                        <button type="button" id="withdraw">withdraw</button>
+                    </div>
+                    <input type="number" id="amount2" name="man" placeholder="who" required>
+                    <input type="number" id="amount3" name="trrr" placeholder="transfer" required>
+                    <button type="button" id="tran">transfer</button>
+                </form>
+            </div>
+            <div id="loggedout">
+                <form action="" id="form">
+                    <p>Register</p>
+                    <label for="name"></label>
+                    <input type="text" class="loginform" id="name" name="name" placeholder="enter your name: " required>
+                    <label for="pass"></label>
+                    <input type="password" class="loginform" id="pass" placeholder="enter your password" required>
+                    <label for="email"></label>
+                    <input type="email" class="loginform" id="email" placeholder="enter your email: " required>
+                    <button id="submit">submit</button>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>  
